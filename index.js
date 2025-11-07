@@ -1,14 +1,19 @@
 const express = require('express');
 const path = require('path');
+const io = require('socket.io');
 const app = express();
-const port = 3000;
+const port = 8000;
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'client')));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'index.html'));
 });
 
+io.on('connection', (socket) => {
+  // PLACEHOLDER
+});
+
 app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`);
+    console.log(`Ported Into the http://localhost:${port}`);
 });
