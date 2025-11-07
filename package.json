@@ -11,12 +11,13 @@
     "node",
     "express"
   ],
-  "author": "Your Name",
+  "author": "ItzRafaelScout/Rafafrias882 And BeefJerkyz/Jim Megatron",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.8.1"
   }
 }
