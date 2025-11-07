@@ -1,0 +1,22 @@
+{
+  "name": "bonziworld-resuscitated",
+  "version": "1.0.0",
+  "description": "a purple gorilla chatroom by 2 collaborators",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
