@@ -1,7 +1,7 @@
 {
   "name": "bonziworld-resuscitated",
   "version": "1.0.0",
-  "description": "a purple gorilla chatroom by 2 collaborators",
+  "description": "a purple gorilla chatroom by 3 collaborators",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
